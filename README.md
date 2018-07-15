@@ -22,6 +22,8 @@ You then can create a new Otter Git raft by doing:
 2)	Go to the Administration section (the Gear icon in the upper right of the screen  )
 3)	Then click the “Rafts” link in the “Components & Extensibility” section
  
+ 
+ 
 4)	Then click the “Create Raft” button
 5)	Then click the “Git” button from the dialog window
  
