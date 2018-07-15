@@ -19,7 +19,7 @@ You then can create a new Otter Git raft by doing:
 ## Tutorial: Using DSC Resources in Otter
 
 1)	Open your local Otter instance (by default http://localhost:8626) 
-2)	Go to the Administration section (the Gear icon in the upper right of the screen  )
+2)	Go to the Administration section (the Gear icon in the upper right of the screen ![image](https://user-images.githubusercontent.com/24645219/42730032-691c4e2a-879f-11e8-8e28-ba4077e8c26a.png))
 3)	Then click the “Rafts” link in the “Components & Extensibility” section
  
  
