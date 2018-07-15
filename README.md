@@ -68,12 +68,14 @@ An editor window will now pop up, click the purple “Switch to Text Mode” but
 
 Then copy and paste this Otter script:
 
+~~~
 PSDsc Environment (
    Name: MyFirstOtterVar,
    Value: This variable is set on $ServerName,
    Ensure: Present,
    Path: false
 );
+~~~
 
 Then click the “Save Plan” button.  The dialog will close and you will return to the server screen.  The server should now check the configuration automatically, if not, click the “Check Configuration” button
 
@@ -91,8 +93,10 @@ Click the “MyFirstOtterVar” entry in the “DSC-Environment” section, and 
 
 ![image](https://user-images.githubusercontent.com/24645219/42730064-0c053a20-87a0-11e8-9b44-aa48d18b481b.png)
 
-Notice that the Ensure is “Absent”.  Click the Close button of the dialog.
+Notice that the Ensure is “Absent”. Click the Close button of the dialog.
+
 Now we will remediate this drift.  
+
 Click the “Remediate with Job” button and then click "Create Job"
 
 ![image](https://user-images.githubusercontent.com/24645219/42730066-138c2f60-87a0-11e8-9d49-a203724e47e5.png)
@@ -105,7 +109,9 @@ A new job is now launches to automatically remediate the drift.  In this case, a
 
 To verify that the environment variable was really set, open a PowerShell console and execute
 
+~~~
 [environment]::GetEnvironmentVariable("MyFirstOtterVar", "Machine")
+~~~
 
 You should see “This variable is set on LOCAL” printed out
 
