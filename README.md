@@ -4,7 +4,7 @@
 
 This repository contains Otter scripts, PowerShell script, and other resource you can use to bootstrap your Otter setup.
 
-## First-time Otter Setup
+### First-time Otter Setup
 
 The first thing you will want to do is install Otter, you can download the latest installer from https://inedo.com/otter/versions. 
 After you have installed Otter, you will want to create a fork of this repository.  
@@ -36,3 +36,43 @@ You then can create a new Otter Git raft by doing:
 13)	Then edit the “Default_New” rafts and rename it to “Default”
 14)	The new Git raft is now set up and ready to go to work
 15)	To verify the Git Raft is working, browse to “Assets” and you should see something like this (with the exception of multiple rafts, we will add more rafts later on)
+
+## Tutorial: Using DSC Resources in Otter
+
+Otter allows using most, if not all DSC resources directly within OtterScript.  This tutorial will walk you through how to execute  your first DSC resource
+
+First, go to the Servers, you will see one server named “LOCALHOST”, that is your local machine.  Click LOCALHOST to go to the server page then scroll down to the “Configuration Plan” section, and click “create”
+ 
+An editor window will now pop up, click the purple “Switch to Text Mode” button in the lower right (DSC resources can only be created in Text Mode)
+ 
+Then copy and paste this Otter script:
+
+PSDsc Environment (
+   Name: MyFirstOtterVar,
+   Value: This variable is set on $ServerName,
+   Ensure: Present,
+   Path: false
+);
+
+Then click the “Save Plan” button.  The dialog will close and you will return to the server screen.  The server should now check the configuration automatically, if not, click the “Check Configuration” button
+ 
+Wait for the configuration check to complete
+ 
+The server will be in a drifted state.  Click the “Configuration” tab to see the details of the drift
+ 
+Click the “MyFirstOtterVar” entry in the “DSC-Environment” section, and you will see a dialog like:
+ 
+Notice that the Ensure is “Absent”.  Click the Close button of the dialog.
+Now we will remediate this drift.  
+Click the “Remediate with Job” button 
+  
+A new job is now launches to automatically remediate the drift.  In this case, a new environment variable is created named “MyFirstOtterVar”
+
+To verify that the environment variable was really set, open a PowerShell console and execute
+
+[environment]::GetEnvironmentVariable("MyFirstOtterVar", "Machine")
+
+You should see “This variable is set on LOCAL” printed out
+Also, on the server’s configuration tab, you should now see
+ 
+
