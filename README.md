@@ -32,7 +32,7 @@ You then can create a new Otter Git raft by doing:
 
 6)	You will now be presented with a dialog to configure the Git Raft
  
-![4](https://user-images.githubusercontent.com/24645219/42769214-6e5564b6-88d6-11e8-9ef5-1ec4355f8c47.png)
+![4](https://user-images.githubusercontent.com/24645219/42769789-1dc69a9a-88d8-11e8-83ac-c1480f26c1e4.png)
  
 7)	The Name (1) should be something meaningful, since we intend to replace the default raft with our new Git Raft, let’s name it “Default_New”
 
@@ -91,7 +91,7 @@ The server will be in a drifted state.  Click the “Configuration” tab to see
 
 Click the “MyFirstOtterVar” entry in the “DSC-Environment” section, and you will see a dialog like:
 
-![11](https://user-images.githubusercontent.com/24645219/42769247-80778f0c-88d6-11e8-8c65-3a8ec07d1007.png)
+![11](https://user-images.githubusercontent.com/24645219/42769792-204b8e42-88d8-11e8-948d-5100e28af77d.png)
 
 Notice that the Ensure is “Absent”. Click the Close button of the dialog.
 
