@@ -22,7 +22,7 @@ You then can create a new Otter Git raft by doing:
 
 3)	Then click the “Rafts” link in the “Components & Extensibility” section
  
-![image](https://user-images.githubusercontent.com/24645219/42730051-d13f31de-879f-11e8-9b7b-6539881aebf0.png)
+![1](https://user-images.githubusercontent.com/24645219/42767702-87de23d6-88d2-11e8-81cb-46f58be70ead.png)
  
 4)	Then click the “Create Raft” button
 
