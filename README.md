@@ -28,7 +28,7 @@ You then can create a new Otter Git raft by doing:
 
 5)	Then click the “Git” button from the dialog window
  
-![3](https://user-images.githubusercontent.com/24645219/42769210-6c9f14aa-88d6-11e8-926a-4777a5b9a139.png)
+![3](https://user-images.githubusercontent.com/24645219/42769644-a4be6e02-88d7-11e8-8d81-eeda0b92f984.png)
 
 6)	You will now be presented with a dialog to configure the Git Raft
  
@@ -60,7 +60,7 @@ Otter allows using most, if not all DSC resources directly within OtterScript.  
 
 First, go to the Servers, you will see one server named “LOCALHOST”, that is your local machine.  Click LOCALHOST to go to the server page then scroll down to the “Configuration Plan” section, and click “create”
 
-
+![6](https://user-images.githubusercontent.com/24645219/42769650-a8408bc8-88d7-11e8-9618-9553f840155b.png)
 
 An editor window will now pop up, click the purple “Switch to Text Mode” button in the lower right (DSC resources can only be created in Text Mode)
 
