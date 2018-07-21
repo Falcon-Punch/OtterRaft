@@ -211,7 +211,7 @@ If you ever encounter the error:
 
 ~~~
 
-<span style="color:blue">Cannot invoke the Test-DscConfiguration cmdlet. The Consistency Check or Pull cmdlet is in progress and 
+Cannot invoke the Test-DscConfiguration cmdlet. The Consistency Check or Pull cmdlet is in progress and 
 must return before Test-DscConfiguration can be invoked. Use -Force option if that is available to cancel 
 the current operation.
  
