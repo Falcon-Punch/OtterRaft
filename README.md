@@ -22,11 +22,11 @@ Then open the Administration section (the Gear icon in the upper right of the sc
 
 Click the **Import Configuration** link in the **Infrastructure** section
 
-//PIC
+![16](https://user-images.githubusercontent.com/24645219/43032777-c472f2aa-8c73-11e8-8b5f-6788de7d5a12.png)
  
 Uncheck **Delete missing** and **Dry-run mode**
 
-//PIC
+![17](https://user-images.githubusercontent.com/24645219/43032778-c5d8822c-8c73-11e8-8bb3-84859d595470.png)
  
 Then click **Import**
 
@@ -82,19 +82,19 @@ You then can create a new Otter Git raft by doing:
 
 Goto **Servers** and click the **LOCALHOST** server
 
-//PIC
+![18](https://user-images.githubusercontent.com/24645219/43032779-c7a2d6e8-8c73-11e8-8da5-d610978293e8.png)
 
 Click the **edit** button
  
-//PIC
+![19](https://user-images.githubusercontent.com/24645219/43032782-cdc33784-8c73-11e8-8e5b-819980a66575.png)
 
 Rename **LOCALHOST** to **Dev-VM** (even though it is not a VM), then save
 
-//PIC
+![20](https://user-images.githubusercontent.com/24645219/43032783-cdd9b356-8c73-11e8-871a-0b830082ce75.png)
  
 Then assign the **Server DSC Resources** role
 
-//PIC
+![21](https://user-images.githubusercontent.com/24645219/43032784-cdf041c0-8c73-11e8-9589-a3efe61f0b72.png)
 
 The **Dev-VM** server is now ready for use in the subsequent tutorials
 
@@ -104,7 +104,7 @@ It should detect drift.
 
 Then click the **Remediate with Job** button
 
-//PIC
+![22](https://user-images.githubusercontent.com/24645219/43032785-ce05326a-8c73-11e8-946e-e7a90479573b.png)
 
 ## Tutorial: Using DSC Resources in Otter
 
@@ -177,7 +177,7 @@ Make sure you have setup the Otter Raft as described in **Setup a New Otter Raft
 
 Goto the **DSC_Win2016Server** in script Assets and open it
 
-//PIC
+![23](https://user-images.githubusercontent.com/24645219/43032786-ce1b23a4-8c73-11e8-89c6-ce1c120ca86e.png)
 
 Change the values of the variables, then click **Save**
 
