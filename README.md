@@ -76,7 +76,7 @@ You then can create a new Otter Git raft by doing:
 
 ![5](https://user-images.githubusercontent.com/24645219/42769216-6fa34b1c-88d6-11e8-91c7-2a3aeeeed346.png)
 
-16) 16)	Now, perform steps 4 through 15 each additional branch **prod, stage, and test** (Name the raft the same as the branch)
+16)	Now, perform steps 4 through 15 each additional branch **prod, stage, and test** (Name the raft the same as the branch)
 
 ## Setup your LOCALHOST server
 
