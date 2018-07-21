@@ -165,7 +165,7 @@ To verify that the environment variable was really set, open a PowerShell consol
 [environment]::GetEnvironmentVariable("MyFirstOtterVar", "Machine")
 ~~~
 
-You should see **This variable is set on Dev-VM** printed out
+You should see "This variable is set on Dev-VM" printed out
 
 Also, on the server’s configuration tab, you should now see
  
@@ -175,7 +175,7 @@ Also, on the server’s configuration tab, you should now see
 
 Make sure you have setup the Otter Raft as described in **Setup a New Otter Raft**
 
-Goto the **DSC_Win2016Server** in script Assets and open it
+Goto the "DSC_Win2016Server" in script Assets and open it
 
 ![23](https://user-images.githubusercontent.com/24645219/43032786-ce1b23a4-8c73-11e8-89c6-ce1c120ca86e.png)
 
